@@ -29,3 +29,4 @@ get_total_deaths <- function() {
 cases_plot <- ggplot(data = national) +
   geom_line(mapping = aes(x = as.Date(date), y = cases)) +
   labs(x = "Date", y = "Cumulative Cases", title = "U.S. COVID Cases")
+

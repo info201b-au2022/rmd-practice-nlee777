@@ -1,0 +1,5 @@
+source("analysis.R")
+
+total_deaths <- get_total_deaths()
+total_deaths
+total_cases <- get_total_cases()
